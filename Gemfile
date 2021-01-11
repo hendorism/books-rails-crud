@@ -29,7 +29,8 @@ gem 'hirb'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+#gem 'bootsnap', '>= 1.4.2', require: false
+#commented this line on 202101111357 to try and push to heroku
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
